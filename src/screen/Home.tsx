@@ -21,6 +21,10 @@ const Home = ({navigation, route}: NavigationProps) => {
             title="ChasaingBubbles"
             onPress={() => navigation.navigate('ChasaingBubbles')}
           />
+          <Button
+            title="Confetti"
+            onPress={() => navigation.navigate('Confetti')}
+          />
         </View>
       </View>
     </SafeAreaView>

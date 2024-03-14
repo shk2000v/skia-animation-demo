@@ -9,6 +9,7 @@ type HomeStackParamList = {
 type AnimationStackParamList = {
   GradientClock: undefined;
   ChasaingBubbles: undefined;
+  Confetti: undefined;
 };
 type StackParamList = AnimationStackParamList & HomeStackParamList;
 
